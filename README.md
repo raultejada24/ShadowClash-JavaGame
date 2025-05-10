@@ -7,7 +7,7 @@ WARNING: Asegúrate de tener configurado correctamente el entorno y las dependen
 ---
 
 ## 👥 Equipo
-- 
+
 - **Raúl Tejada Merinero**
 - **Víctor Hugo**
 - **Rubén Ruiz**
