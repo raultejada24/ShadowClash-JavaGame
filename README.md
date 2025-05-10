@@ -85,10 +85,13 @@ Cada personaje tiene habilidades y atributos que afectan su desempeño en combat
     ```bash
     cd ShadowClash
     ```
+![imagen](https://github.com/user-attachments/assets/bc718729-9db8-4d6f-9bda-4729fd29db5e)
 
 3. **Configurar el entorno**:
     - Asegúrate de tener el **entorno adecuado** para ejecutar el proyecto (motor de juego, dependencias, etc.).
     - Ajusta las configuraciones necesarias en los archivos de configuración.
+
+![imagen](https://github.com/user-attachments/assets/f8aab5ba-df91-4f7f-a726-9c5462a1e3cd)
 
 ---
 
