@@ -1,133 +1,127 @@
 # ShadowClash
 
-**ShadowClash** es un videojuego de **lucha táctica** en un mundo de **fantasía oscura**, donde criaturas legendarias luchan en **duelos estratégicos**. Los jugadores deben dominar habilidades únicas, gestionar sus recursos y tomar decisiones tácticas para derrotar a sus oponentes.
+**ShadowClash** is a **tactical fighting** video game set in a **dark fantasy** world, where legendary creatures clash in **strategic duels**. Players must master unique skills, manage their resources, and make tactical decisions to defeat their opponents.
 
-WARNING: Asegúrate de tener configurado correctamente el entorno y las dependencias para evitar problemas durante la ejecución del videojuego.
-
----
-
-## 📑 Tabla de Contenidos
-
-- [Características](#características)
-- [Mecánica del Juego](#mecánica-del-juego)
-- [Roles](#roles)
-- [Sistema de Habilidades y Atributos](#sistema-de-habilidades-y-atributos)
-- [Instalación y Configuración](#instalación-y-configuración)
-- [Ejecución](#ejecución)
-- [Pruebas](#pruebas)
-- [Documentación](#documentación)
-- [FAQ](#faq)
+WARNING: Make sure your environment and dependencies are correctly configured to avoid issues while running the game.
 
 ---
 
-## 🏆 Características
+## 📑 Table of Contents
 
-- **Gestión de Personajes**: Crea y personaliza tus personajes con atributos, habilidades y equipo.
-- **Sistema de Desafíos**: Desafía a otros jugadores, apostando oro y configurando tu equipo antes de cada combate.
-- **Combate por Rondas**: Los combates se desarrollan en rondas donde cada acción influye en el resultado.
-- **Persistencia**: Toda la información se guarda de forma persistente, permitiendo continuar tu progreso sin perder datos.
+- [Features](#-features)
+- [Gameplay Mechanics](#-gameplay-mechanics)
+- [Roles](#-roles)
+- [Skills and Attributes System](#-skills-and-attributes-system)
+- [Installation and Configuration](#-installation-and-configuration)
+- [Execution](#-execution)
+- [Testing](#-testing)
+- [Documentation](#-documentation)
+- [FAQ](#-faq)
 
 ---
 
-## 🕹️ Mecánica del Juego
+## 🏆 Features
 
-- **Lucha Táctica**: Enfrenta a tus enemigos en **combates por rondas** donde cada acción cuenta.
-    - **Fase de Ataque**: El personaje intenta infligir daño al oponente utilizando su ataque y habilidades.
-    - **Fase de Defensa**: El oponente intenta bloquear o mitigar el daño utilizando su defensa y habilidades.
+- **Character Management**: Create and customize your characters with attributes, skills, and equipment.
+- **Challenge System**: Challenge other players, bet gold, and set up your equipment before each battle.
+- **Round-based Combat**: Battles take place in rounds where every action influences the outcome.
+- **Persistence**: All information is saved persistently, allowing you to continue your progress without losing data.
 
-- **Objetivo**: Reducir la salud del oponente a cero antes de que lo hagan contigo.
+---
+
+## 🕹️ Gameplay Mechanics
+
+- **Tactical Combat**: Face your enemies in **round-based combat** where every action counts.
+    - **Attack Phase**: The character attempts to deal damage to the opponent using their attack and skills.
+    - **Defense Phase**: The opponent attempts to block or mitigate the damage using their defense and skills.
+
+- **Objective**: Reduce the opponent's health to zero before they do the same to you.
 
 ---
 
 ## 🛠️ Roles
 
-- **Administrador**: Gestiona la base de datos, personajes, armas, armaduras y configuraciones del juego.
-- **Jugador**: Crea y gestiona su personaje, participa en combates y desafíos.
+- **Administrator**: Manages the database, characters, weapons, armor, and game settings.
+- **Player**: Creates and manages their character, participates in battles and challenges.
 
 ---
 
-## ⚔️ Sistema de Habilidades y Atributos
+## ⚔️ Skills and Attributes System
 
-Cada personaje tiene habilidades y atributos que afectan su desempeño en combate:
+Each character has skills and attributes that affect their performance in combat:
 
-### Atributos:
+### Attributes:
 
-- **Salud (HP)**: La vida del personaje. Si llega a 0, el personaje pierde.
-- **Ataque**: Determina el daño que puede hacer el personaje.
-- **Defensa**: Reduce el daño recibido.
-- **Velocidad**: Influye en el orden de las acciones.
+- **Health (HP)**: The character's life. If it reaches 0, the character loses.
+- **Attack**: Determines the damage the character can deal.
+- **Defense**: Reduces incoming damage.
+- **Speed**: Influences the turn order of actions.
 
-### Habilidades:
+### Skills:
 
-- **Habilidades Especiales**: Cada raza tiene habilidades únicas que alteran el curso de la batalla.
-- **Habilidades Pasivas**: Afectan al personaje continuamente, como resistir venenos o aumentar la probabilidad de crítico.
+- **Special Skills**: Each race has unique skills that alter the course of the battle.
+- **Passive Skills**: Continuously affect the character, such as resisting poison or increasing critical hit chance.
 
 ---
 
-## ⚙️ Instalación y Configuración
+## ⚙️ Installation and Configuration
 
-1. **Clonar el repositorio**:
+1. **Clone the repository**:
     ```bash
-    git clone https://github.com/tu-usuario/ShadowClash.git
+    git clone [https://github.com/your-username/ShadowClash.git](https://github.com/your-username/ShadowClash.git)
     ```
 
-2. **Acceder al directorio del proyecto**:
+2. **Navigate to the project directory**:
     ```bash
     cd ShadowClash
     ```
 ![imagen](https://github.com/user-attachments/assets/bc718729-9db8-4d6f-9bda-4729fd29db5e)
 
-3. **Configurar el entorno**:
-    - Asegúrate de tener el **entorno adecuado** para ejecutar el proyecto (motor de juego, dependencias, etc.).
-    - Ajusta las configuraciones necesarias en los archivos de configuración.
+3. **Configure the environment**:
+    - Make sure you have the **proper environment** to run the project (game engine, dependencies, etc.).
+    - Adjust the necessary settings in the configuration files.
 
 ![imagen](https://github.com/user-attachments/assets/f8aab5ba-df91-4f7f-a726-9c5462a1e3cd)
 
 ---
 
-## ▶️ Ejecución
+## ▶️ Execution
 
-1. **Ejecutar la aplicación**:
-    - Abre el proyecto en el motor de juego y ejecuta el método principal para iniciar el videojuego.
-
----
-
-## ✅ Pruebas
-
-Se han implementado pruebas unitarias para verificar el correcto funcionamiento de:
-
-- **Gestión de personajes** y atributos.
-- **Lógica de combate**.
-- **Persistencia de datos**.
+1. **Run the application**:
+    - Open the project in the game engine and run the main method to start the game.
 
 ---
 
-## 📚 Documentación
+## ✅ Testing
 
-La documentación técnica está integrada en el código fuente. Se recomienda consultar los comentarios y documentación interna para comprender mejor el funcionamiento del sistema.
+Unit tests have been implemented to verify the correct functionality of:
+
+- **Character and attribute management**.
+- **Combat logic**.
+- **Data persistence**.
+
+---
+
+## 📚 Documentation
+
+Technical documentation is integrated into the source code. It is recommended to check the comments and internal documentation to better understand how the system works.
 
 ---
 
 ## ❓ FAQ
 
-**¿Cómo crear un personaje?**  
-Selecciona "Crear Personaje" en el menú principal y personaliza atributos, habilidades y equipo.
+**How do I create a character?** Select "Create Character" from the main menu and customize attributes, skills, and equipment.
 
-**¿Qué razas puedo elegir?**  
-Puedes elegir entre **Vampiros**, **Licántropos** y **Cazadores**, cada uno con habilidades únicas.
+**What races can I choose?** You can choose between **Vampires**, **Werewolves**, and **Hunters**, each with unique skills.
 
-**¿Cómo desafiar a otro jugador?**  
-Desde el menú principal, selecciona "Desafiar a otro jugador" y apuesta oro antes del combate.
+**How do I challenge another player?** From the main menu, select "Challenge another player" and bet gold before the fight.
 
-**¿Cuántas rondas tiene un combate?**  
-Cada combate tiene múltiples rondas, hasta que uno de los personajes pierda toda su salud.
+**How many rounds does a battle have?** Each battle has multiple rounds, continuing until one of the characters loses all their health.
 
-**¿Puedo mejorar las habilidades de mi personaje?**  
-Sí, las habilidades mejoran a medida que subes de nivel ganando combates.
+**Can I upgrade my character's skills?** Yes, skills improve as you level up by winning battles.
 
-**¿Cómo funcionan las apuestas?**  
-Puedes apostar oro antes de cada combate, y el ganador se lleva todo el oro apostado.
+**How does betting work?** You can bet gold before each fight, and the winner takes all the bet gold.
 
 ---
 
-**ShadowClash**: Conquista la oscuridad y forja tu leyenda. ¡La lucha está a punto de comenzar! 💥
+**ShadowClash**: Conquer the darkness and forge your legend. The fight is about to begin! 💥
